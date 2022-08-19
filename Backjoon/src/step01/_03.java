@@ -16,6 +16,8 @@ public class _03 {
 		int b = sc.nextInt();
 		
 		System.out.println(a+b);
+		
+		sc.close();
 	}
 	
 }

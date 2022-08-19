@@ -16,7 +16,7 @@ public class _05 {
 		
 		System.out.println(a*b);
 		
-		
+		sc.close();
 	}
 
 	

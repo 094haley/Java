@@ -15,6 +15,8 @@ public class _06 {
 		double b = sc.nextDouble();
 		
 		System.out.println(a/b);
+		
+		sc.close();
 	}
 
 }

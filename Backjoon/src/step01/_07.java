@@ -20,5 +20,6 @@ public class _07 {
 		System.out.println(a/b);
 		System.out.println(a%b);
 		
+		sc.close();
 	}
 }

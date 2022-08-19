@@ -14,6 +14,6 @@ public class _08 {
 		String str = sc.next();
 		System.out.println(str+"??!");
 		
+		sc.close();
 	}
-
 }
