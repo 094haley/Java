@@ -20,14 +20,17 @@ public class _03 {
 		for(int i = 0; i < 10; i ++) {
 			
 			int a = Integer.parseInt(br.readLine());
-			arr[i] = a;
+			arr[i] = a % 42;
 		}
 		
 		for(int i = 0; i < 10; i ++) {
 			
-			int b = arr[0] % 42;
-			if (b!= arr[i] % 42) {
-				count ++;
+			for(int j = 0; j < 10; j ++) {
+				
+				if (arr[i] == arr[j]) {
+					
+				}
+				
 			}
 		}
 		
