@@ -14,7 +14,7 @@ public class _10_1 {
 		
 		
 		StringBuilder sb = new StringBuilder();
-		st = new StringTokenizer(br.readLine()," "); // StringTokenizer를 두번 쓰는 이유?
+		st = new StringTokenizer(br.readLine()," "); 
 		
 		for (int i = 0; i < n; i ++ ) {
 			
