@@ -16,10 +16,21 @@ public class _05 {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		
-		
-		
+
+		for(int i = 0; i < n; i ++) {
+			String str = br.readLine();
+			int l = str.length();
+			String[] strArray = str.split("");
+			int tot = 0;
+			for(int j = 0; j < l; j ++) {
+				
+				switch (strArray[j]) {
+				case 'O'
+				
+				
+				}
+			}
+			System.out.println(tot);
+		}
 	}
 }
