@@ -7,7 +7,7 @@ package sub1;
  * 
  * Object 클래스
  *  - 자바의 최상위 클래스로 모든 클래스는 Object로 상속 받음
- *  - 주요기능은 객체 비교를 위한 equals() 메서드와 객체정보를 출력하기 위한 toStrin() 제공
+ *  - 주요기능은 객체 비교를 위한 equals() 메서드와 객체정보를 출력하기 위한 toString() 제공
  */
 public class ObjectTest {
 	public static void main(String[] args) {
