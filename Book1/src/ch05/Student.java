@@ -10,7 +10,7 @@ package ch05;
 public class Student {
 	
 	int studentID;
-	String studentName;
+	private String studentName;
 	int grade;
 	String address;
 	
@@ -18,5 +18,25 @@ public class Student {
 	// 학생 이름과 주소 출력하는 메서드 만들기 P132
 	public void showStudentInfo() {
 		System.out.println(studentName + "," + address);
+	}
+	
+	// 학생 이름을 반환하는 메서드 P141
+	public String getStudentName() {
+		return studentName;
+	}
+	
+	// 학생 이름을 부여하는 메서드 P142
+	public void setStudentName(String name) {
+		studentName = name;
+	}
+	
+	// Student 클래스에 main()함수 추가하기 P144
+	public static void main(String[] args) {
+		
+		Student studentAhn = new Student();
+		studentAhn.studentName = "안연수";
+		
+		System.out.println(studentAhn.studentName);
+		System.out.println(studentAhn.getStudentName());
 	}
 }
