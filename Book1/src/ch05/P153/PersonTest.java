@@ -1,4 +1,4 @@
-package ch05.Person;
+package ch05.P153;
 
 /*
  * 날짜 : 2022/09/19
