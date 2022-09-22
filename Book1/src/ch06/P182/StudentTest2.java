@@ -1,4 +1,4 @@
-package ch06.p182;
+package ch06.P182;
 
 /*
  * 날짜 : 2022/09/20
