@@ -3,9 +3,9 @@ package ch07;
 /*
  * 날짜 : 2022/09/21
  * 이름 : 이해빈
- * 내용 : 알파벳 문자와 아스키 코드 값 출력하기 P206
+ * 내용 : 알파벳 문자와 아스키 코드 값 출력하기
  */
-public class CharArray {
+public class P206 {
 	public static void main(String[] args) {
 		
 		char[] alphabets = new char[26];

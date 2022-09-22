@@ -3,10 +3,10 @@ package ch07;
 /*
  * 날짜 : 2022/09/21
  * 이름 : 이해빈
- * 내용 : 배열의 유효한 요소 값 출력하기 P205
+ * 내용 : 배열의 유효한 요소 값 출력하기
  */
 
-public class ArrayTest3 {
+public class P205 {
 	public static void main(String[] args) {
 		
 		double[] data = new double[5];

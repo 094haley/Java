@@ -3,10 +3,10 @@ package ch07;
 /*
  * 날짜 : 2022/09/21
  * 이름 : 이해빈
- * 내용 : 배열 길이만큼 출력하기 P204
+ * 내용 : 배열 길이만큼 출력하기
  */
 
-public class ArrayTest2 {
+public class P204 {
 	public static void main(String[] args) {
 		double[] data = new double[5];
 		

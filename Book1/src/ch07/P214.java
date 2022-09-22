@@ -3,17 +3,17 @@ package ch07;
 /*
  * 날짜 : 2022/09/21
  * 이름 : 이해빈
- * 내용 : 객체 배열의 얕은 복사 P214
+ * 내용 : 객체 배열의 얕은 복사
  */
-public class ObjectCopy2 {
+public class P214 {
 	public static void main(String[] args) {
 		
-		Book[] bookArray1 = new Book[3];
-		Book[] bookArray2 = new Book[3];
+		P207[] bookArray1 = new P207[3];
+		P207[] bookArray2 = new P207[3];
 	
-		bookArray1[0] = new Book("태백산맥", "조정래");
-		bookArray1[1] = new Book("데미안", "헤르만 헤세");
-		bookArray1[2] = new Book("어떻게 살 것인가", "유시민");
+		bookArray1[0] = new P207("태백산맥", "조정래");
+		bookArray1[1] = new P207("데미안", "헤르만 헤세");
+		bookArray1[2] = new P207("어떻게 살 것인가", "유시민");
 		System.arraycopy(bookArray1, 0, bookArray2, 0, 3);
 		
 		for(int i = 0; i < bookArray2.length; i++) {

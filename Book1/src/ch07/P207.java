@@ -3,16 +3,16 @@ package ch07;
 /*
  * 날짜 : 2022/09/21
  * 이름 : 이해빈
- * 내용 : 객체 배열 만들기(1) P207
+ * 내용 : 객체 배열 만들기(1)
  */
-public class Book {
+public class P207 {
 
 	private String bookName;
 	private String author;
 	
-	public Book() {}
+	public P207() {}
 	
-	public Book(String bookName, String author) {
+	public P207(String bookName, String author) {
 		this.bookName = bookName;
 		this.author = author;
 	}

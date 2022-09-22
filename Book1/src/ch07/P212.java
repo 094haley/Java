@@ -3,7 +3,7 @@ package ch07;
 /*
  * 날짜 : 2022/09/21
  * 이름 : 이해빈
- * 내용 : System.arraycopy()로 배열 복사하기 P212
+ * 내용 : System.arraycopy()로 배열 복사하기
  * 
  * System.arraycopy()
  *  - System.arraycopy(src, srcPos, dest, destPos, length)
@@ -14,7 +14,7 @@ package ch07;
  *  - length   : src에서 dest로 자료를 복사할 요소 개수
  */ 
 
-public class ArrayCopy {
+public class P212 {
 	public static void main(String[] args) {
 		
 		int[] array1 = {10, 20, 30, 40, 50};
