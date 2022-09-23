@@ -1,4 +1,4 @@
-package ch08;
+package ch08.P234;
 
 /*
  * 날짜 : 2022/09/23

@@ -1,33 +1,22 @@
-package ch08;
+package ch08.P259;
 
 /*
- * 날짜 : 2022/09/22
+ * 날짜 : 2022/09/23
  * 이름 : 이해빈
- * 내용 : VIPCustomer 클래스 구현하기 P237
+ * 내용 : 고객 관리 프로그램 완성하기 P263
  */
 public class VIPCustomer extends Customer {
 	
 	private int agentID;
 	double saleRatio;
 	
-//	public VIPCustomer () {
-//		customerGrade = "VIP";
-//		bonusRatio = 0.05;
-//		saleRatio = 0.1;
-//	// 하위 클래스 생성할 때 콘솔 출력문
-//	System.out.println("VIPCustomer() 생성자 호출");
-	
-	
-	// 명시적으로 상위 클래스 생성자 호출하기 P245
+
 	public VIPCustomer(int customerID, String customerName, int agentID) {
-	
 		super(customerID, customerName);
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
 		this.agentID = agentID;
-		
-		System.out.println("VIPCustomer(int, String) 셍성자 호출");
 		
 	}
 	
@@ -41,4 +30,9 @@ public class VIPCustomer extends Customer {
 		bonusPoint += price * bonusRatio;
 		return price -(int)(price * saleRatio);
 	}
+	
+	public String showCustomerInfo() {
+		return super.showCustomerInfo() +" 담당 상담원 번호는 " + agentID + "입니다";
+	}
+	
 }
