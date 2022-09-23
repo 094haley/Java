@@ -31,8 +31,14 @@ public class VIPCustomer extends Customer {
 		
 	}
 	
-	
 	public int getAgentID() {
 		return agentID;
+	}
+	
+	// calcPrice() 메서드 재정의하기 P250
+	@Override
+	public int calcPrice(int price) {
+		bonusPoint += price * bonusRatio;
+		return price -(int)(price * saleRatio);
 	}
 }
