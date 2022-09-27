@@ -5,7 +5,7 @@ package ch12.P407;
  * 이름 : 이해빈
  * 내용 : Member 클래스 구현하기 P407
  */
-public class Member implements Comparable<Member>{
+public class Member implements Comparable<Member> {
 
 	private int memberId;
 	private String memberName;
@@ -57,8 +57,7 @@ public class Member implements Comparable<Member>{
 	
 	// Comparable 인터페이스 구현하기 P434
 	@Override
-	private int compareTo(Member member) {
-		return(this.memberId - member.memberId);
+	public int compareTo(Member member) {
+		return(this.memberId - member.memberId) * (-1);
 	}
-	
 }
