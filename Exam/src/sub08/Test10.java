@@ -60,7 +60,7 @@ class User {
 
 public class Test10 {
 	
-	private static String host = "jbdc:mysql://127.0.0.1:3306/java2db";
+	private static String host = "jdbc:mysql://127.0.0.1:3306/java2db";
 	private static String user = "root";
 	private static String pass = "1234";
 	
@@ -70,7 +70,7 @@ public class Test10 {
 	
 	public static void main(String[] args) {
 		
-		query("INSERT INTO `User3` VALUES ('j101', '홍길동', '010-1111-1111', 21");
+		query("INSERT INTO `User3` VALUES ('j101', '홍길동', '010-1111-1111', 21)");
 		System.out.println("데이터 입력완료...");
 		
 		List<User> result1 = query("select * from `User3`");

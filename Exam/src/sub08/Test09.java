@@ -25,7 +25,7 @@ public class Test09 {
 				
 				for(int y=1; y<=9; y++) {
 					int z = x * y;
-					fw.write(x + " x " + y + " = " + z);
+					fw.write(x + " x " + y + " = " + z + "\n");
 				}
 			}
 			
